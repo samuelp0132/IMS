@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./../assets/css/style.css">
+</head>
+
+<body><table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+    </tr>
+    </thead>
+    <tbody>
+    {foreach name=users from=$users item=user}
+    <tr>
+        <th scope="row">1</th>
+        <td>{$user.nombre}</td>
+        <td>{$user.apellido}</td>
+        <td>{$user.email}</td>
+        <td>{$user.telefono}</td>
+    </tr>
+    {/foreach}
+    </tbody>
+</table>
+
+
+</body>
+
+</html>
