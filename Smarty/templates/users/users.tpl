@@ -1,23 +1,19 @@
-<!DOCTYPE html>
-<html lang="es">
-<meta>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="./../assets/css/style.css">
-</head>
-
-<body><table class="table">
+<body>
+<div class = "container" id="tabla-usuarios">
+    <table class="table">
     <thead>
     <tr>
         <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Email</th>
+        <th scope="col">Telefono</th>
     </tr>
     </thead>
     <tbody>
     {foreach name=users from=$users item=user}
     <tr>
-        <th scope="row">1</th>
+        <th scope="row">{$user.id}</th>
         <td>{$user.nombre}</td>
         <td>{$user.apellido}</td>
         <td>{$user.email}</td>
@@ -26,8 +22,4 @@
     {/foreach}
     </tbody>
 </table>
-
-
-</body>
-
-</html>
+</div>

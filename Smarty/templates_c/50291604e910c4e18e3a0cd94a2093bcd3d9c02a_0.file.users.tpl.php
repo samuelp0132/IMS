@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-12-06 01:16:49
-  from 'C:\xampp2\htdocs\Smarty-Trunk\Smarty\templates\users.tpl' */
+/* Smarty version 3.1.34-dev-7, created on 2020-12-06 01:57:45
+  from 'C:\xampp2\htdocs\Smarty-Trunk\Smarty\templates\users\users.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5fcc22f1d29398_34252647',
+  'unifunc' => 'content_5fcc2c892273b4_74042845',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'dcfc57480ec64416e593441a8d9a6f4bf13bce3c' => 
+    '50291604e910c4e18e3a0cd94a2093bcd3d9c02a' => 
     array (
-      0 => 'C:\\xampp2\\htdocs\\Smarty-Trunk\\Smarty\\templates\\users.tpl',
+      0 => 'C:\\xampp2\\htdocs\\Smarty-Trunk\\Smarty\\templates\\users\\users.tpl',
       1 => 1607213807,
       2 => 'file',
     ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5fcc22f1d29398_34252647 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fcc2c892273b4_74042845 (Smarty_Internal_Template $_smarty_tpl) {
 ?><body>
 <div class = "container" id="tabla-usuarios">
     <table class="table">
