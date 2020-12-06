@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-12-05 22:47:00
-  from 'C:\xampp2\htdocs\Smarty-Trunk\Smarty\templates\index.html' */
+/* Smarty version 3.1.34-dev-7, created on 2020-12-06 01:16:49
+  from 'C:\xampp2\htdocs\Smarty-Trunk\Smarty\templates\users.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5fcbffd4ba6ba8_47409048',
+  'unifunc' => 'content_5fcc22f1d29398_34252647',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dcfc57480ec64416e593441a8d9a6f4bf13bce3c' => 
     array (
-      0 => 'C:\\xampp2\\htdocs\\Smarty-Trunk\\Smarty\\templates\\index.html',
-      1 => 1607204818,
+      0 => 'C:\\xampp2\\htdocs\\Smarty-Trunk\\Smarty\\templates\\users.tpl',
+      1 => 1607213807,
       2 => 'file',
     ),
   ),
@@ -20,21 +20,17 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5fcbffd4ba6ba8_47409048 (Smarty_Internal_Template $_smarty_tpl) {
-?><!DOCTYPE html>
-<html lang="es">
-<meta>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="./../assets/css/style.css">
-</head>
-
-<body><table class="table">
+function content_5fcc22f1d29398_34252647 (Smarty_Internal_Template $_smarty_tpl) {
+?><body>
+<div class = "container" id="tabla-usuarios">
+    <table class="table">
     <thead>
     <tr>
         <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Email</th>
+        <th scope="col">Telefono</th>
     </tr>
     </thead>
     <tbody>
@@ -46,7 +42,8 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['user']->value) {
 $_smarty_tpl->tpl_vars['user']->do_else = false;
 ?>
     <tr>
-        <th scope="row">1</th>
+        <th scope="row"><?php echo $_smarty_tpl->tpl_vars['user']->value['id'];?>
+</th>
         <td><?php echo $_smarty_tpl->tpl_vars['user']->value['nombre'];?>
 </td>
         <td><?php echo $_smarty_tpl->tpl_vars['user']->value['apellido'];?>
@@ -61,9 +58,6 @@ $_smarty_tpl->tpl_vars['user']->do_else = false;
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     </tbody>
 </table>
-
-
-</body>
-
-</html><?php }
+</div>
+<?php }
 }

@@ -8,6 +8,7 @@ include("../Smarty/includes/Curl/CurlConfig.php");
 $result_curl_read = Curl::curlGet(CURL_READ_USERS_URL);
 $html= new Smarty();
 $html->assign('users', $result_curl_read['data']);
-$html->display('index.html');
+$html->display('header.html');
+$html->display('users/users.tpl');
 
 

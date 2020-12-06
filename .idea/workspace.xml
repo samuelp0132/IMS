@@ -1,16 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:feature/st-task-mostrar-usuarios" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ccec19b-0af2-401c-aa2b-d4e3e0e35171" name="Default Changelist" comment="" />
+    <list default="true" id="9ccec19b-0af2-401c-aa2b-d4e3e0e35171" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Smarty/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Smarty-Trunk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Smarty-Trunk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/api/User/userAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/css/nav.menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/users/users.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/templates_c/c83a78d56c5ec67ea6de9876722fd7d2852589cb_0.file.index.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates_c/c83a78d56c5ec67ea6de9876722fd7d2852589cb_0.file.index.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/templates_c/dcfc57480ec64416e593441a8d9a6f4bf13bce3c_0.file.index.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates_c/dcfc57480ec64416e593441a8d9a6f4bf13bce3c_0.file.index.html.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Smarty/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lFKe0LUNfXqsbMAE2x53PPLrax" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,10 +69,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp2\htdocs\Smarty-Trunk\Smarty\templates\users" />
       <recent name="C:\xampp2\htdocs\Smarty-Trunk\Smarty\includes\Curl" />
     </key>
   </component>
@@ -34,13 +87,45 @@
       <option name="presentableId" value="Default" />
       <updated>1607187506256</updated>
       <workItem from="1607187512384" duration="15410000" />
+      <workItem from="1607208212447" duration="7438000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/st-task-mostrar-usuarios" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tabla de ver usuarios y menu de navegacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabla de ver usuarios y menu de navegacion" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="480" y="71" key="RollbackChangesDialog" timestamp="1607215683786">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="480" y="71" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1607215683786" />
     <state x="346" y="59" width="670" height="58" key="search.everywhere.popup" timestamp="1607200558068">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
