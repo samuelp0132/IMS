@@ -20,26 +20,24 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:feature/st-task-mostrar-usuarios" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccec19b-0af2-401c-aa2b-d4e3e0e35171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Smarty/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Smarty-Trunk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Smarty-Trunk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/api/User/userAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/css/nav.menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/users/users.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/templates_c/c83a78d56c5ec67ea6de9876722fd7d2852589cb_0.file.index.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates_c/c83a78d56c5ec67ea6de9876722fd7d2852589cb_0.file.index.html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/templates_c/dcfc57480ec64416e593441a8d9a6f4bf13bce3c_0.file.index.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates_c/dcfc57480ec64416e593441a8d9a6f4bf13bce3c_0.file.index.html.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -87,8 +86,16 @@
       <option name="presentableId" value="Default" />
       <updated>1607187506256</updated>
       <workItem from="1607187512384" duration="15410000" />
-      <workItem from="1607208212447" duration="7438000" />
+      <workItem from="1607208212447" duration="9063000" />
     </task>
+    <task id="LOCAL-00001" summary="Tabla de ver usuarios y menu de navegacion">
+      <created>1607216343155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607216343155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,19 +106,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="feature/st-task-mostrar-usuarios" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -126,6 +121,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="480" y="71" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1607215683786" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1607216666164">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1607216666164" />
     <state x="346" y="59" width="670" height="58" key="search.everywhere.popup" timestamp="1607200558068">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
