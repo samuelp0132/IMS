@@ -1,7 +1,5 @@
 {include file="../header.tpl" title='Agregar Usuario'}
 <div class = "container" >
-
-
 <form id="agregar-usuarios-form" name="agregar-usuarios-form" method="post">
     {if isset($alerts)}
     {foreach name=alert from=$alerts item=alert}

@@ -8,7 +8,7 @@
     <table class="table">
     <thead>
     <tr>
-        <th scope="col">#</th>
+        <th scope="col">Id</th>
         <th scope="col">Nombre</th>
         <th scope="col">Apellido</th>
         <th scope="col">Email</th>
@@ -24,8 +24,8 @@
         <td>{$user.apellido}</td>
         <td>{$user.email}</td>
         <td>{$user.telefono}</td>
-        <td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Editar</button></td>
-        <td><a href="deleteUser.php?action=delete&id={$user.id}">Eliminar</a></td>
+        <td><button type="button" data-id="{$user.id}" id="agregar-usuario-btn" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Editar</button></td>
+        <td><a class="btn btn-info btn-sm" href="deleteUser.php?action=delete&id={$user.id}">Eliminar</a></td>
 
     </tr>
     {/foreach}
@@ -35,19 +35,41 @@
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
+                    <h4 class="modal-title">Actualizacion de Usuario</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Some text in the modal.</p>
+                    <div class = "container" >
+                    <form id="actualizar-usuarios-form" name="agregar-usuarios-form" method="post" action="updateUser.php">
+                        <div class="form-row">
+                            <input id="userID" name="id"  value="" />
+                            <div class="form-group col-md-6">
+                                <label for="inputNombre">Nombre</label>
+                                <input type="text" class="form-control" name="nombre" id="inputNombre" placeholder="Nombre">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputApellido">Apellido</label>
+                                <input type="text" class="form-control" name="apellido" id="inputApellido" placeholder="Apellido">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputTelefono">Telefono</label>
+                                <input type="text" class="form-control" name="telefono" id="inputTelefono" placeholder="Telefono">
+                            </div>
+                        </div>
+
+                        <button type="submit" name="update-user" class="btn btn-primary ">Actualizar</button>
+                    </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+            </div>
             </div>
 
         </div>
