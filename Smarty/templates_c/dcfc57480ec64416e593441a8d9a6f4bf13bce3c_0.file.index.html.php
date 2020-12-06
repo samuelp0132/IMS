@@ -1,6 +1,6 @@
 <?php
 /* Smarty version 3.1.34-dev-7, created on 2020-12-06 01:16:49
-  from 'C:\xampp2\htdocs\Smarty-Trunk\Smarty\templates\users.tpl' */
+  from 'C:\xampp2\htdocs\Smarty-Trunk\Smarty\templates\usuarios.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
@@ -11,7 +11,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
     'dcfc57480ec64416e593441a8d9a6f4bf13bce3c' => 
     array (
-      0 => 'C:\\xampp2\\htdocs\\Smarty-Trunk\\Smarty\\templates\\users.tpl',
+      0 => 'C:\\xampp2\\htdocs\\Smarty-Trunk\\Smarty\\templates\\usuarios.tpl',
       1 => 1607213807,
       2 => 'file',
     ),
