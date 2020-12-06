@@ -1,0 +1,23 @@
+body{
+    font-family : "monospace", sans-serif;
+}
+
+#tabla-usuarios {
+    margin-left: 300px;
+}
+
+#agregar-usuarios-form {
+    margin-left: 250px;
+    padding-top: 20px;
+}
+
+.footer{
+margin-left: 250px;
+bottom: 0;
+width: 100%;
+height: 40px;
+line-height: 40px;
+background-color: #282626;
+overflow-x: hidden;
+position: fixed;
+}
