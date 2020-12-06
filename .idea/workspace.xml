@@ -93,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607270432637</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="se agrego la funcionalidad actualizar usuario">
+      <created>1607276331287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607276331303</updated>
+    </task>
+    <task id="LOCAL-00004" summary="se agrego la funcionalidad actualizar usuario">
+      <created>1607276379415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607276379415</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tabla de ver usuarios y menu de navegacion" />
     <MESSAGE value="Se agrego la funcion añadir usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego la funcion añadir usuario" />
+    <MESSAGE value="se agrego la funcionalidad actualizar usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrego la funcionalidad actualizar usuario" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1607270480276">
@@ -141,10 +156,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="480" y="71" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1607218891890" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1607270449067">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1607276384997">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1607270449067" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1607276384997" />
     <state x="346" y="59" width="670" height="58" key="search.everywhere.popup" timestamp="1607200558068">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
