@@ -1,4 +1,4 @@
- <?php
+<?php
 
 class Curl{
 
@@ -8,26 +8,20 @@ class Curl{
      * @return mixed
      */
     public static function curlPost($url, $values){
-    // set post fields
-        /*
-        $post = [
-            'username' => 'user1',
-            'password' => 'passuser1',
-            'gender'   => 1,
-        ];*/
+
 
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($values));
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: text/plain'));
-        // execute!
+
         $response = curl_exec($ch);
 
-        // close the connection, release resources used
+
         curl_close($ch);
 
-        // do anything you want with your response
+
         return json_decode($response, true);
     }
 

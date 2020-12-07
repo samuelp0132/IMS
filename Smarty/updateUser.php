@@ -1,11 +1,11 @@
 <?php
 // including the necessary files
 include("../Smarty/libs/Smarty.class.php");
-include("../Smarty/includes/Curl/Curl.php");
+include("./api/User.php");
 include("../Smarty/includes/Curl/CurlConfig.php");
 
 $html= new Smarty();
-
+$user = new User();
 if($_POST){
     $userData = [
         "id" => $_POST['id'],
@@ -14,10 +14,14 @@ if($_POST){
         "email" => $_POST['email'],
         "telefono" => $_POST['telefono'],
     ];
-    $url = "index.php";
-    $result_curl_read = Curl::curlPost(CURL_UPDATE_USERS_URL,$userData);
-    $html->assign('alerts',$result_curl_read['message']);
-    if($result_curl_read){
-        $html->display('users/usuarios.tpl');
+
+    //sending url to entity
+    $user->setApiURL(CURL_UPDATE_USERS_URL);
+
+    //sending user data to entity
+    $resultUpdateUser = $user->updateUser($userData);
+
+    if($resultUpdateUser){
+        Header('Location:index.php');
     }
 }

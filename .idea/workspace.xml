@@ -20,20 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccec19b-0af2-401c-aa2b-d4e3e0e35171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Smarty/updateUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smarty/addUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/addUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/templates/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/footer.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/deleteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/deleteUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/includes/Curl/Curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/includes/Curl/Curl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/includes/Curl/CurlConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/includes/Curl/CurlConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/includes/EndPoint/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smarty/templates/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/templates/users/agregar-usuario.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/users/agregar-usuario.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smarty/templates/users/usuarios.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/users/usuarios.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/updateUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/updateUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/Smarty/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -45,7 +48,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="feature/funcionalidad-actualizar-usuario" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/funcionalidad-actualizar-usuario" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lFKe0LUNfXqsbMAE2x53PPLrax" />
@@ -55,14 +66,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SmartyIntec-Trunk\Smarty" />
+      <recent name="C:\xampp\htdocs\SmartyIntec-Trunk\Smarty\app\User" />
       <recent name="C:\xampp2\htdocs\Smarty-Trunk\Smarty\includes" />
       <recent name="C:\xampp2\htdocs\Smarty-Trunk\Smarty\templates\users" />
       <recent name="C:\xampp2\htdocs\Smarty-Trunk\Smarty\includes\Curl" />
@@ -78,6 +94,8 @@
       <updated>1607187506256</updated>
       <workItem from="1607187512384" duration="15410000" />
       <workItem from="1607208212447" duration="9063000" />
+      <workItem from="1607284320143" duration="20647000" />
+      <workItem from="1607312534724" duration="6318000" />
     </task>
     <task id="LOCAL-00001" summary="Tabla de ver usuarios y menu de navegacion">
       <created>1607216343155</created>
@@ -124,7 +142,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/creacion-de-usuarios" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -142,27 +160,5 @@
     <MESSAGE value="Se agrego la funcion añadir usuario" />
     <MESSAGE value="se agrego la funcionalidad actualizar usuario" />
     <option name="LAST_COMMIT_MESSAGE" value="se agrego la funcionalidad actualizar usuario" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1607270480276">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1607270480276" />
-    <state x="518" y="292" key="NewPhpFileDialog" timestamp="1607271186593">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="518" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1607271186593" />
-    <state x="480" y="71" key="RollbackChangesDialog" timestamp="1607218891890">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="480" y="71" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1607218891890" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1607276384997">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1607276384997" />
-    <state x="346" y="59" width="670" height="58" key="search.everywhere.popup" timestamp="1607200558068">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="346" y="59" width="670" height="58" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1607200558068" />
   </component>
 </project>

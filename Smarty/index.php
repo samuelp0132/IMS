@@ -1,23 +1,28 @@
-<?php
-// including the necessary files
-include("../Smarty/libs/Smarty.class.php");
-include("../Smarty/includes/Curl/Curl.php");
-include("../Smarty/includes/Curl/CurlConfig.php");
+    <?php
+    // including the necessary files
+    include("../Smarty/libs/Smarty.class.php");
+    include("./api/User.php");
+    include("../Smarty/includes/Curl/CurlConfig.php");
 
 
-$result_curl_read = Curl::curlGet(CURL_READ_USERS_URL);
+    $html= new Smarty();
+    $user = new User();
 
-$html= new Smarty();
+    //sending url to entity
+    $user->setApiURL(CURL_READ_USERS_URL);
 
-$result = isset($result_curl_read['data']) ? $result_curl_read['data'] : $result_curl_read['message'];
+    // retriving users
+    $resultGetUsers = $user->getUsers();
 
-if(isset($result_curl_read['data'])) {
+    // array index validation
+    // checking retrived data is correct to the view
+    if(isset($resultGetUsers['data'])) {
+        $html->assign('users',$resultGetUsers['data']);
+    }else{
+        $html->assign('alerts',$resultGetUsers['message']);
+    }
 
-    $html->assign('users', $result_curl_read['data']);
-}else{
-$html->assign('alerts', $result_curl_read['message']);
-}
-$html->display('users/usuarios.tpl');
+    $html->display('users/usuarios.tpl');
 
 
 

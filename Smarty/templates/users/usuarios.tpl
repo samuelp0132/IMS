@@ -16,6 +16,7 @@
     </tr>
     </thead>
     <tbody>
+
     {if isset($users)}
     {foreach name=users from=$users item=user}
     <tr>
@@ -25,17 +26,16 @@
         <td>{$user.email}</td>
         <td>{$user.telefono}</td>
         <td><button type="button" data-id="{$user.id}" id="agregar-usuario-btn" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Editar</button></td>
-        <td><a class="btn btn-info btn-sm" href="deleteUser.php?action=delete&id={$user.id}">Eliminar</a></td>
+        <td><a class="btn btn-danger btn-sm" href="deleteUser.php?action=delete&id={$user.id}">Eliminar</a></td>
 
     </tr>
     {/foreach}
     {/if}
     </tbody>
 </table>
-    <!-- Modal -->
+
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Actualizacion de Usuario</h4>
@@ -44,7 +44,7 @@
                     <div class = "container" >
                     <form id="actualizar-usuarios-form" name="agregar-usuarios-form" method="post" action="updateUser.php">
                         <div class="form-row">
-                            <input id="userID" name="id"  value="" />
+                            <input id="userID" name="id"  value="" hidden/>
                             <div class="form-group col-md-6">
                                 <label for="inputNombre">Nombre</label>
                                 <input type="text" class="form-control" name="nombre" id="inputNombre" placeholder="Nombre">
@@ -65,15 +65,13 @@
                                 <input type="text" class="form-control" name="telefono" id="inputTelefono" placeholder="Telefono">
                             </div>
                         </div>
-
-                        <button type="submit" name="update-user" class="btn btn-primary ">Actualizar</button>
-                    </form>
+                        <button type="submit" name="" class="btn btn-primary ">Actualizar</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            </div>
-
         </div>
     </div>
-    </div>
+</div>
 {include file="../footer.tpl"}
 ?>
