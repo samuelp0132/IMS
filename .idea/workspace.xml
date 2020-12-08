@@ -22,12 +22,10 @@
     <list default="true" id="9ccec19b-0af2-401c-aa2b-d4e3e0e35171" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smarty/addUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/addUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/deleteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/deleteUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/includes/Curl/Curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/includes/Curl/Curl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/includes/Curl/CurlConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/includes/Curl/CurlConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/includes/EndPoint/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smarty/templates/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/templates/css/nav.menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/css/nav.menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/templates/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smarty/templates/users/agregar-usuario.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/users/agregar-usuario.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smarty/templates/users/usuarios.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/templates/users/usuarios.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smarty/updateUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Smarty/updateUser.php" afterDir="false" />
     </list>
@@ -54,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/funcionalidad-actualizar-usuario" />
+        <entry key="$PROJECT_DIR$" value="feature/refactoring-requests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,7 +93,7 @@
       <workItem from="1607187512384" duration="15410000" />
       <workItem from="1607208212447" duration="9063000" />
       <workItem from="1607284320143" duration="20647000" />
-      <workItem from="1607312534724" duration="6318000" />
+      <workItem from="1607312534724" duration="25850000" />
     </task>
     <task id="LOCAL-00001" summary="Tabla de ver usuarios y menu de navegacion">
       <created>1607216343155</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607276379415</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rectoring request code">
+      <created>1607319670327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607319670327</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +164,7 @@
     <MESSAGE value="Tabla de ver usuarios y menu de navegacion" />
     <MESSAGE value="Se agrego la funcion añadir usuario" />
     <MESSAGE value="se agrego la funcionalidad actualizar usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="se agrego la funcionalidad actualizar usuario" />
+    <MESSAGE value="Rectoring request code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rectoring request code" />
   </component>
 </project>

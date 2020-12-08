@@ -9,6 +9,8 @@ $user = new User();
 if($_POST){
     $userData = [
         "id" => $_POST['id'],
+        "usuario" => $_POST['usuario'],
+        "contrasena" => $_POST['contrasena'],
         "nombre" => $_POST['nombre'],
         "apellido" => $_POST['apellido'],
         "email" => $_POST['email'],
